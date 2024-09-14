@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <title>Resume Input Form</title>
+</head>
+<body>
+    <div id="form-div">
+        <h1>Enter Your Resume Details</h1>
+        <form id="resumeForm">
+            <!-- Personal Information -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="jobtitle">Job Title:</label>
+            <input type="text" id="jobtitle" name="jobtitle" placeholder="Enter your jobtitle" required><br><br>
+
+            <label for="Phone">Phone:</label>
+            <input type="text" id="Phone" name="Phone" placeholder="Enter your Phone no" required ><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="linkedin">LinkedIn:</label>
+            <input type="text" id="linkedin" name="linkedin" placeholder="Enter your LinkedIn profle" required ><br><br>
+
+            
+
+            <!-- Education -->
+            <label for="degree">Degree:</label>
+            <input type="text" id="degree" name="degree" placeholder="Enter your degree" required><br><br>
+
+            <label for="university">University:</label>
+            <input type="text" id="university" name="university" placeholder="Enter your  university" required><br><br>
+
+            <!-- Skills -->
+            <label for="skill1">Skill 1:</label>
+            <input type="text" id="skill1" name="skill1" required><br><br>
+
+            <label for="skill2">Skill 2:</label>
+            <input type="text" id="skill2" name="skill2" required><br><br>
+
+            <label for="skill3">Skill 3:</label>
+            <input type="text" id="skill3" name="skill3" required><br><br>
+
+            <!-- Work Experience -->
+            <label for="jobtitleexp">Job Title (Experience):</label>
+            <input type="text" id="jobtitleexp" name="jobtitleexp" required><br><br>
+
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company" required><br><br>
+
+            <label for="startyear">Start Year:</label>
+            <input type="text" id="startyear" name="startyear" required><br><br>
+
+            <label for="endyear">End Year:</label>
+            <input type="text" id="endyear" name="endyear" required><br><br>
+
+            <!-- Generate Resume Button -->
+            <button type="submit" id="generateresumeebutton">Generate Resume</button>
+        </form>
+    </div>
+</body>
+
+<script src="formscript.js"></script>
+</html>

@@ -1,0 +1,142 @@
+/* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #e7e5e256;
+    background: linear-gradient(rgb(72, 76, 88),rgb(142, 180, 198));
+
+    
+}
+
+#main-div {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #dee2e4;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #444;
+}
+
+h2.heading {
+    font-size: 1.5rem;
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.contpara {
+    margin: 10px 0;
+    color: #666;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 10px;
+}
+
+.personal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.personal img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.contact-info .para {
+    margin: 5px 0;
+}
+
+#btndiv {
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+#btnDiv{
+    margin:  0 auto;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    border: 4px solid #007bff;
+}
+
+
+
+#btndiv h3 {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #main-div {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .personal {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .personal img {
+        margin-top: 15px;
+        max-width: 80px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2.heading {
+        font-size: 1.4rem;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+

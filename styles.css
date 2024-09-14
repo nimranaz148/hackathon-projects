@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background: linear-gradient(135deg, rgba(2, 0, 36, 0.8), rgba(169, 31, 228, 0.8), rgb(28, 197, 199));
+}
+.head{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ h1{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    color: white;
+    text-decoration:underline;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+h3{
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 90%;
+    width: 70%;
+    background:linear-gradient(rgba(174, 15, 113, 0.8),rgb(207, 136, 42));
+    color: white;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 30px;
+}
+
+.p40{
+    padding: 30px;
+    border-radius: 8px;
+}
+.round{
+    border-radius: 50px;
+}
+
+.anchor{
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+.anchor:hover{
+    color: rgba(217, 214, 247, 0.895);
+    text-decoration: underline;
+}
+.para{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: wheat;
+}
+
+.zoom{
+    transform: scale(1);
+    transition: 0.5s;
+}
+.zoom:hover{
+    transform: scale(1.03);
+}
+
+
+.img{
+    height: 500px;
+    border-radius: 20px;
+}
+
+
+footer p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mt20{
+    margin-top: 20px;
+}
