@@ -1,12 +1,9 @@
 /* General Styles */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
-
 
 body {
     font-family: Arial, sans-serif;
@@ -16,8 +13,6 @@ body {
     padding: 0;
     background-color: #e7e5e256;
     background: linear-gradient(rgb(72, 76, 88),rgb(142, 180, 198));
-
-    
 }
 
 #main-div {
@@ -78,16 +73,14 @@ ul {
     margin-bottom: 20px;
 }
 
-#btnDiv{
-    margin:  0 auto;
+#btnDiv {
+    margin: 0 auto;
     display: flex;
     width: 60%;
     justify-content: space-around;
     align-items: center;
     border: 4px solid #007bff;
 }
-
-
 
 #btndiv h3 {
     margin-bottom: 10px;
@@ -118,6 +111,7 @@ ul {
     .personal {
         flex-direction: column;
         align-items: flex-start;
+        text-align: left;
     }
 
     .personal img {
@@ -137,6 +131,44 @@ ul {
         width: 100%;
         margin-bottom: 10px;
     }
+
+    #btnDiv {
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
+/* Extra small devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .personal {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .personal img {
+        max-width: 70px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2.heading {
+        font-size: 1.3rem;
+    }
+
+    .contpara {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    #btnDiv {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #007bff;
+    }
+}

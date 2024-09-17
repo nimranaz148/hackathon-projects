@@ -1,14 +1,20 @@
 /* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background:linear-gradient(rgba(16, 9, 93, 0.45),rgb(19, 3, 60));
+    background: linear-gradient(rgba(16, 9, 93, 0.45), rgb(19, 3, 60));
     color: #343a40;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    min-height: 100vh; /* Ensures form is centered even on shorter screens */
 }
 
 #form-div {
@@ -18,8 +24,8 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 100%;
     max-width: 600px;
+    box-sizing: border-box; /* Ensure proper box model behavior */
 }
-
 
 h1 {
     font-size: 40px;
@@ -29,15 +35,13 @@ h1 {
     font-weight: bold;
 }
 
-
 label {
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 22px;
     display: block;
     margin-bottom: 6px;
     color: #495057;
 }
-
 
 input[type="text"],
 input[type="email"],
@@ -61,12 +65,10 @@ textarea:focus {
     background-color: #e9ecef;
 }
 
-
 textarea {
     height: 100px;
     resize: none;
 }
-
 
 button {
     background-color: #28a745;
@@ -84,24 +86,30 @@ button:hover {
     background-color: #218838;
 }
 
-
+/* Responsive Adjustments */
 @media (max-width: 768px) {
     #form-div {
         padding: 15px;
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 30px;
+    }
+
+    label {
+        font-size: 20px;
     }
 
     input[type="text"],
     input[type="email"],
     textarea {
         font-size: 14px;
+        padding: 8px 10px;
     }
 
     button {
         font-size: 16px;
+        padding: 10px 15px;
     }
 }
 
@@ -111,11 +119,22 @@ button:hover {
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 24px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 13px;
+        padding: 7px 9px;
     }
 
     button {
-        padding: 10px 15px;
         font-size: 14px;
+        padding: 8px 12px;
     }
 }
