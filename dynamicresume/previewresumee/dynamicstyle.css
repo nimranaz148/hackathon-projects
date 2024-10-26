@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #05050556;
-    background: linear-gradient(rgb(118, 129, 163),rgb(17, 93, 128));
+    background: linear-gradient(rgb(118, 129, 163),rgb(130, 153, 162));
 }
 
 #main-div {
@@ -35,7 +35,7 @@ h1 {
 }
 
 h2.heading {
-    font-size: 2rem;
+    font-size: rem;
     color: #0c0c0c;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
